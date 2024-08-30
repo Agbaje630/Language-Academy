@@ -1,0 +1,219 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', system-ui;
+}
+
+.signin {
+	display: flex;
+    margin: 32px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.left {
+	width: 500px;
+	height: 600px;
+	background-color: #ff9900;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.left img {
+	width: 100%;
+	padding-top: 120px;
+	padding-left: 64px;
+}
+.right {
+	flex: 1;
+	padding: 0 32px;
+}
+
+.right_top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top_one a {
+	text-decoration: none;
+	color: #52b6ec;
+}
+
+.social {
+	display: flex;
+	align-items: center;
+	gap: 64px;
+}
+
+.google {
+	padding: 8px 32px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+
+.facebook {
+	padding: 10px 32px;
+	background-color: #527bcb;
+	color: white;
+	border-radius: 8px;
+	border: none;
+}
+
+.overall_empty {
+	display: flex;
+	gap: 24px;
+	padding-top: 12px;
+}
+
+.empty {
+	width: 200px;
+	height: 10px;
+	border-bottom: 2px solid gray;
+}
+
+.allform .email {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	width: 500px;
+	height: 50px;
+    margin-top: 8px;
+	border: 1px solid #ff9900;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.email span {
+	padding-left: 5px;
+	padding-right: 12px;
+}
+.email input {
+	width: 450px;
+	height: 30px;
+	outline: none;
+	border: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.allform .password {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	width: 500px;
+	height: 50px;
+    margin-top: 8px;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.password span {
+	padding-left: 5px;
+	padding-right: 12px;
+}
+.password input {
+	width: 450px;
+	height: 30px;
+	outline: none;
+	border: none;
+    cursor: pointer;
+    align-items: center;
+}
+form a{
+    color: black;
+}
+form button{
+    width: 500px;
+    height: 50px;
+    margin:32px 0 ;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 5px;
+}
+
+.overall{
+    display: none;
+}
+.allsocial{
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-width:1110px){
+    .left{
+        display: none;
+    }
+
+    .right{
+        width: 100%; 
+        padding: 12px 32px;
+        padding: 12px 32px;
+    }
+
+    form  input{
+        max-width: 100%;
+        width: 500px;
+    }
+    .email{
+        width: 500px;
+    }
+    .password{
+        width: 500px;
+    }
+    .social{
+        display: none;
+    }
+    .overall_empty{
+        display: none;
+    }
+
+    .overall{
+        display: flex;
+        gap: 24px;
+        padding-top: 12px;
+    }
+    
+    .allsocial {
+        display: flex;
+        align-items: center;
+        gap: 64px;
+        padding-bottom: 12px ;
+    }
+    
+    .xgoogle {
+        padding: 8px 32px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+    
+    .xfacebook {
+        padding: 10px 32px;
+        background-color: #527bcb;
+        color: white;
+        border-radius: 8px;
+        border: none;
+    }
+
+
+
+
+
+
+
+
+
+
+    
+}
